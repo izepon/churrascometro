@@ -1,0 +1,116 @@
+/*Cabeçalho e título*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;    
+  }
+
+  body {
+    background-color: #a5d2f7a9;
+    color: #104f5c;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+  
+p {
+    font-size: 1.6rem;
+}
+  
+label {
+    font-size: 2rem;
+}
+  
+input {
+    font-size: 2rem;
+}
+  
+button {
+    font-size: 2rem;
+}
+
+#text-content {
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 750px;
+    margin-top: 30px;
+    margin-bottom: 10px;    
+    border-radius: 12px;   
+    text-align: center;
+    background-color: #1cd6cd;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 20px;
+}
+/*Conteúdo da página */
+.container {
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 650px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #fbf6f1;
+    padding: 60px;
+    border-radius: 12px;
+}
+
+.box-calculo {
+
+}
+
+.form {
+
+
+}
+
+.form input-box{
+
+}
+
+.resultado-bloco {
+    font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.resultado-bloco img {
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+.resultado-bloco  p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+
+
+
+
+/*Footer e créditos*/
+
+footer p {
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 750px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    border-radius: 12px;   
+    text-align: center;
+    background-color: #1cd6cd;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 20px;
+}

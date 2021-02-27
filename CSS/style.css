@@ -1,0 +1,202 @@
+/*Cabeçalho e título*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+       
+  }
+body {
+  background-image: url("../img/churras-bg.jpg"); 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+h2 {
+    font-size: 2rem;
+}
+  
+p {
+    font-size: 1.6rem;
+}
+  
+label {
+    font-size: 1.8rem;
+}
+  
+input {
+    font-size: 1.8rem;
+}
+  
+button {
+    font-size: 2rem;
+}
+
+.container {
+    max-width: 100%;
+    max-height: 100vh;  
+    background: #f3f8ff;
+    background-image: url("../img/churras-bg.jpg"); 
+}
+
+.resultado-bloco {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.resultado-bloco img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    margin-right: 0.5rem;
+}
+
+.resultado-bloco  p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+
+.text-content {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+  
+.text-content h1 {
+    font-family: "Poppins", sans-serif;    
+}
+
+/* Conteúdo */
+
+.box-calculo {
+    
+    background: rgb(250, 105, 53); 
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 700px;
+    margin-top: 2px;
+    margin-bottom: 50px;    
+    padding: 0.5rem;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .box-calculo img {
+
+    width: 42rem;
+    margin-top: 2rem;
+    
+  }
+ 
+.form {
+    margin-top: 1rem;
+    width: 90%;
+  }
+  
+.form .input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.3rem;    
+  }
+  
+.box-calculo label {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0.5rem;
+  }
+  
+.box-calculo input {
+    width: 100%;
+    height: 3.4rem;
+    background: #fafafc;
+  
+    border: 0.1rem solid #e6e6f0;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+  
+    text-align: center;
+  }
+  
+.box-calculo input::placeholder {
+    color: #9c98a6;
+  }
+  
+.box-calculo button {
+    width: 18.8rem;
+    height: 5.7rem;
+    background: rgb(243, 72, 9);
+    color: #fff;
+    box-shadow: 0px 5px 10px #49496157;
+    border: none;
+    border-radius: 3.6rem;
+  
+    text-align: center;
+    margin-top: 1rem;
+  
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+.box-calculo button:hover {
+    background: rgba(177, 47, 0, 0.685);
+  }
+  
+.box-content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 2rem;
+  }
+  
+  /* css do resultado no js */
+
+.resultado-info {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #000;
+    width: 0 auto;
+    margin-top: 1.5rem;
+  }
+  
+.resultado-bloco {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+.resultado-bloco img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    margin-right: 0.5rem;
+  }
+  
+.resultado-bloco p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: rgb(44, 44, 44);
+  }
+  
+
+  footer p {
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 750px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    border-radius: 12px;   
+    text-align: center;    
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 20px;
+}
+  
