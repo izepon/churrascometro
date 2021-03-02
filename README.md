@@ -11,12 +11,15 @@
     </h3>
 </div>
 
+### Teste: https://izepon.github.io/churrascometro/
+
 <p align="center">
   <img alt="mockup" src="https://github.com/izepon/churrascometro/blob/master/img/churrascometro-jci.PNG" width="100%">
 </p>
 
 
 # :clipboard: Projeto Churrascômetro:
+
 
 O sistema calcular a quantidade necessária de Carne e bebidas para um churrasco, seguindo uma regra geral de consumo, com base nas informações seguintes:
 
